@@ -1,4 +1,4 @@
-package Challenges;
+package com.programs.Challenges;
 
 public class ArrayStringRemoveLetters {
     static  void removeLetters(char ch[],String st){
