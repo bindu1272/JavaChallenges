@@ -1,4 +1,10 @@
-package Challenges;
+package com.programs.Challenges;
+//Create a function that reverses letters in a string but keeps digits in their current order.
+//        reverse("ab89c") ➞ "cb89a"
+//
+//        reverse("jkl5mn923o") ➞ "onm5lk923j"
+//
+//        reverse("123a45") ➞ "123a45"
 public class StringNumbersReverseCurrent {
     static void reverse(String string){
         char arr[] = string.toCharArray();

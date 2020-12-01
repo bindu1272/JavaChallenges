@@ -1,6 +1,9 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.ArrayList;
 import java.lang.String;
+//Create a function that takes an array of strings and returns an array
+//        with only the strings that have numbers in them.
+//        If there are no strings containing numbers, return an empty array.
 class StringNumbers{
     public void myMethod(ArrayList<String> array) {
         int x = 0;
@@ -31,5 +34,4 @@ public class StringInterface {
         arr.add("hi");
         stringNumbers.myMethod(arr);
     }
-
 }

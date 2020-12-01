@@ -1,5 +1,11 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.*;
+//Create a function which takes in an encoded string and returns an object according to the
+//        parseCode("Tesha000Deep00014344") ➞ {
+//        "firstName"="Tesha",
+//        "lastName"="Deep",
+//        "id"="14344"
+//        }
 public class ParseCode {
     private Dictionary parseCode(String string){
         String str[] = string.split("0+");

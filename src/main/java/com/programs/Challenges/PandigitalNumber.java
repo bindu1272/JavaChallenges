@@ -1,7 +1,9 @@
-package Challenges;
+package com.programs.Challenges;
 import java.io.CharArrayReader;
 import java.util.ArrayList;
 import  java.util.Scanner;
+//A pandigital number contains all digits (0-9) at least once. Write a function that takes an integer,
+//        returning true if the integer is pandigital, and false otherwise.
 public class PandigitalNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);

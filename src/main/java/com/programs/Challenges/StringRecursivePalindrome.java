@@ -1,5 +1,6 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.ArrayList;
+//Create a recursive function that determines whether a word is a palindrome or not.
 public class StringRecursivePalindrome {
     public boolean stringRecursive(String string){
         if(string.length()==0 || string.length()==1){

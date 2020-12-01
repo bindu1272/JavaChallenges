@@ -1,9 +1,18 @@
-package Challenges;
+package com.programs.Challenges;
 import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
 import java.util.Scanner;
+//getLength([1, [2, 3]]) -> 3
+//
+//        getLength([1, [2, [3, 4]]]) -> 4
+//
+//        getLength([1, [2, [3, [4, [5, 6]]]]]) > 6
+//
+//        getLength([1, [2], 1, [2], 1]) -> 5
+//
+//        getLength(1) -> 1
 public class SumCharacters {
      static int length =0;
     private static void getLength(List array) {
