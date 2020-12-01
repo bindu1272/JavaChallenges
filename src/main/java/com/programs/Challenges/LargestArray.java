@@ -1,5 +1,10 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.ArrayList;
+//Create a function that finds each number in the given array that is greater than every number that comes after it. Your solution should return an array of the numbers
+//
+//        leader([2, 3, 20, 15, 8, 3]) ➞ [20, 15, 8, 3]
+//
+//        leader([2, 3, 20, 15, 8, 25, 3]) ➞ [25, 3]
 public class LargestArray {
     public ArrayList<Integer> largeArray(int array[]){
         ArrayList<Integer> array1 = new ArrayList<>();

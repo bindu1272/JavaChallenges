@@ -1,4 +1,4 @@
-package Challenges;
+package com.programs.Challenges;
 public class LongestSmallestWord {
     String str = "hi hello welcome to javaWorld";
     public static void main(String[] args) {

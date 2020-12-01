@@ -1,6 +1,8 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.Scanner;
-
+//Write a function that inserts a white space between every instance of a lower character followed
+//        immediately by an upper character.
+//        BinduIsAGoodGirl -> Bindu Is A Good Girl
 public class UpperCaseCharacter {
     public void upperConvertion(String str){
         char arr[] = str.toCharArray();

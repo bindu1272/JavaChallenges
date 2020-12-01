@@ -1,5 +1,8 @@
-package Challenges;
-
+package com.programs.Challenges;
+//We can assign a value to each character in a word, based on their position in the alphabet (a = 1, b = 2, ... , z = 26). A balanced word is one where the sum of values on the left-hand side of the word equals the sum of values on the right-hand side. For odd length words, the middle character (balance point) is ignored.
+//
+//        balanced("zips") ➞ true
+//        balanced("brake") ➞ false
 public class BalancedWordSum {
     public static void main(String[] args) {
         String str = "byaz";

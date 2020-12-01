@@ -1,7 +1,9 @@
 package com.programs.Challenges;
 import java.util.ArrayList;
 import java.util.List;
-
+//Write a function that removes the last vowel in each word in a sentence.
+//        removeLastVowel("Those who dare to fail miserably can achieve greatly.")
+//        ➞ "Thos wh dar t fal miserbly cn achiev gretly."
 public class RemovesLastVowel {
     public static void main(String[] args) {
         String str = "Those who dare to fail miserably can achieve greatly";
@@ -12,17 +14,17 @@ public class RemovesLastVowel {
             temp = string[i];
             char ch[] = temp.toCharArray();
             int x = 0;
-            for (int j = 0; j < ch.length; j++) {
+            for (int j=ch.length-1;j>=0; j--) {
                 if (ch[j] == 'a' || ch[j] == 'e' || ch[j] == 'i' || ch[j] == 'o' || ch[j] == 'u') {
-                    if(ch[j]==0) {
                         ch[j] = '*';
-                        x = 1;
-                    }
+                        break;
                 }
-                System.out.print(ch[j]);
+            }
+            for(char y : ch){
+                if(y!='*')
+                    System.out.print(y);
             }
             System.out.print(" ");
         }
-
     }
 }

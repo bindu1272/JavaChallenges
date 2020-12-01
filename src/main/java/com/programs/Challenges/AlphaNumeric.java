@@ -1,5 +1,14 @@
-package Challenges;
+package com.programs.Challenges;
 import java.util.ArrayList;
+//Create a function that takes a string and returns the number of alphanumeric characters that occur more than once.
+//        duplicateCount("abcde") ➞ 0
+//
+//        duplicateCount("aabbcde") ➞ 2
+//
+//        duplicateCount("Indivisibilities") ➞ 2
+//
+//        duplicateCount("Aa") ➞ 0
+// Case sensitive
 public class AlphaNumeric {
     public static void main(String[] args) {
         String str = "aabbcde";
